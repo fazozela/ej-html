@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		body{
+			background-color: grey;
+		}
+		p{
+			/*color: red;*/
+			color: blue;
+			text-align: justify;
+			line-height: 20px;
+			font-style: oblique;
+			font-weight: 500;
+		}
+		h1{
+			/*color:yellow;*/
+			color: rgb(191,198,0);
+			font-size: 100%;
+			text-align: center;
+			text-decoration: overline underline line-through;
+		}
+		ol{
+			/*color: green;*/
+			color: rgba(71,13,178,0.5);
+		}
+		li{
+			text-decoration: underline wavy;
+		}
+		q{
+			text-decoration: underline;
+			font-family: sans-serif;
+		}
+		#autor{
+			color: pink;
+		}
+		.parrafo{
+			color: red;
+		}
+	</style>
+</head>
+<body>
+	<!-- La etiqueta header es para poner una cabecera -->
+	<header>
+		<h1>RESTAURANTE 10MINDS</h1>
+		<nav>
+			<a href="sucre.html" target="_blank">Conozca Sucre</a>
+			<br>
+			<a href="#platos">Nuestros Platos</a>
+			<br>
+			<a href="contactos.html">Contáctenos</a>
+		</nav>
+	</header>
+	<article>
+		<hr>
+		<blockquote>
+			<q>Las recetas no funcionan al menos que utilices tu corazón</q>
+		</blockquote>
+		<p id="autor">Dylan Jones</p>
+	</article>
+	<section>
+		<hr>
+		<p class="parrafo">Nosotros usamos cinco pasos para preparar nuestros platos:</p>
+		<ol reversed>
+			<li>Compramos carne fresca de Doña Maria.</li>
+			<li>Recogemos hortalizas de nuestra huerta privada.</li>
+			<li>Desinfectamos todas las verduras</li>
+		</ol>
+		<p class="parrafo">Pero los dos pasos más importantes son:</p>
+		<ol start="4">
+			<li>Cocinamos todos los productos con la receta de nuestra abuela.</li>
+			<li>Utilizamos nuestro horno especial de leña.</li>
+		</ol>
+		<p class="parrafo">Además de tener una amplia experiencia, <strong>somos los únicos que traemos ají de la India</strong></p>
+		<!-- <p>Además de tener una amplia experiencia, <b>somos los únicos que traemos ají de la India</b></p>
+		<p>Además de tener una amplia experiencia, <em>somos los únicos que traemos ají de la India</em></p>
+		<p>Además de tener una amplia experiencia, <i>somos los únicos que traemos ají de la India</i></p> -->
+	<!-- Footer sirve para definir un pie de página -->
+	</section>
+	<!-- Seccion de los platos -->
+	<section id="platos">
+		<hr>
+		<hr>
+		<p>OFRECEMOS NUESTROS TRES DELICIOSOS PLATOS:</p>
+		<!-- Picante de Pollo: -->
+		<article>
+			<figure>
+				<img src="img/picantePollo.png" alt="Picante de Pollo 10MINDS">
+				<figcaption>Picante de Pollo</figcaption>
+			</figure>
+			<details>
+				<summary>Picante de Pollo</summary>
+				<p>El picante de pollo es un plato típico de Zudañez.</p>
+			</details>
+		</article>
+		<!-- Sullcka: -->
+		<article>
+			<figure>
+				<img src="img/sullka.jpg" alt="Sullcka">
+				<figcaption>Sullcka</figcaption>
+			</figure>
+			<details>
+				<summary>Sullcka</summary>
+				<p>Hecha con:</p>
+				<ul>
+					<li>Mote</li>
+					<li>Papa</li>
+					<li>Tira</li>
+				</ul>
+			</details>
+		</article>
+		<!-- Chicharron: -->
+		<article>
+			<figure>
+				<img src="img/chicharron.jpg" alt="Chicharron" width="500">
+				<figcaption>Chicharron</figcaption>
+			</figure>
+			<details>
+				<summary>Chicharron</summary>
+				<p>El chicharron más crocante de la ciudad.</p>
+				<p><mark>Hecho con cerdo criollo</mark></p>
+			</details>
+		</article>
+	</section>
+	
+	<footer>
+		<hr>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<p>&#169; 2018 Todos los derechos reservados</p>		
+	</footer>
+</body>
+</html>
